@@ -1,0 +1,30 @@
+{
+	"installed_packages":
+	[
+		"ColorSchemeSelector",
+		"Emmet",
+		"Git",
+		"GitGutter-Edge",
+		"Jade",
+		"JsFormat",
+		"LESS",
+		"Missing Palette Commands",
+		"Predawn",
+		"Predawn Monokai",
+		"Predawn Twilight Theme",
+		"Pretty JSON",
+		"REG",
+		"SideBarEnhancements",
+		"SublimeREPL",
+		"Theme - Flatland",
+		"Theme - Gravity",
+		"Theme - Nexus",
+		"Theme - Night",
+		"Theme - Nil",
+		"Theme - Soda",
+		"Theme - Soda SolarizedDark",
+		"Theme - Sodarized",
+		"Theme - Spacegray",
+		"Themr"
+	]
+}

@@ -1,0 +1,6 @@
+[
+    {
+        "caption": "Git: Pull upstream/master Using Rebase",
+        "command": "git_raw", "args": { "command": "git pull --rebase upstream master" }
+    }
+]

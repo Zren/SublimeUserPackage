@@ -1,0 +1,5 @@
+[
+    { "keys": ["ctrl+\\"], "command": "toggle_side_bar" },
+    { "keys": ["escape"], "command": "exec", "args": {"kill": true} },
+    { "keys": ["ctrl+escape"], "command": "exec", "args": {"kill": true} }
+]

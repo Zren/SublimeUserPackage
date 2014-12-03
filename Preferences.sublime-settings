@@ -1,0 +1,36 @@
+{
+	"close_windows_when_empty": true,
+	"color_scheme": "Packages/Color Scheme - User/DarkSolarized.tmTheme",
+	"copy_with_empty_selection": false,
+	"drag_text": false,
+	"draw_minimap_border": true,
+	"draw_white_space": "all",
+	"enable_tab_scrolling": false,
+	"ensure_newline_at_eof_on_save": false,
+	"findreplace_small": true,
+	"font_options":
+	[
+		"no_round"
+	],
+	"highlight_line": false,
+	"hot_exit": false,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"match_brackets_content": false,
+	"match_selection": false,
+	"match_tags": false,
+	"open_files_in_new_window": false,
+	"overlay_scroll_bars": "false",
+	"remember_open_files": false,
+	"scroll_past_end": false,
+	"scroll_speed": 5.0,
+	"show_full_path": true,
+	"sidebar_small": true,
+	"tabs_small": true,
+	"theme": "Soda Dark 3.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": false,
+	"word_wrap": false
+}
