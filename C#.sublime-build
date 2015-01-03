@@ -1,0 +1,26 @@
+{
+  "file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
+  "selector": "source.cs",
+
+  "windows": {
+    "cmd": "cmd /q /c \"csc /nologo /out:%cs_build_ouput_path% /recurse:\"${project_path:${file_path}}\\*.cs\" && %cs_build_ouput_path% && rm %cs_build_ouput_path%\"",
+    "path": "%PATH%;C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319",
+    "env": {
+      "cs_build_ouput_path": "C:/SublimeTextBuild.exe"
+    }
+  },
+
+  "variants": [
+    {
+      "name": "Build and run the current file.",
+      "name": "Run",
+      "windows": {
+        "cmd": "cmd /q /c \"csc /nologo /out:%cs_build_ouput_path% ${file/\\\\/\\\//g} && %cs_build_ouput_path% && rm %cs_build_ouput_path%\"",
+        "path": "%PATH%;C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319",
+        "env": {
+          "cs_build_ouput_path": "C:/SublimeTextBuild.exe"
+        }
+      }
+    }
+  ]
+}
